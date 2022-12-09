@@ -12,7 +12,7 @@ public:
             else{
                 j=0;
             }
-            cout<<j;
+            cout<<j;  
             int m=5464365;
             int k=0;
             int f=0;
@@ -31,7 +31,6 @@ public:
             else{
                 swap(nums[j],nums[k]);
                 reverse(nums.begin()+j+1,nums.end());
-            }
-        }
+            }       }
 }
 };
